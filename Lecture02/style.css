@@ -1,0 +1,60 @@
+/* TODO: 主版面設定 */
+
+header,
+main,
+footer,
+div {
+
+    /* 設定框線 */
+}
+
+/* 頁面裡的圖 取消空白 */
+
+header {
+    background-image: url("../Lecture02/DSC_0008.jpg");
+    color: rgb(17, 32, 114);
+    height: 200px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 70px 0;
+}
+
+header,
+main {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card {
+    padding: 3px;
+    width: calc(100%/3);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card img {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-1 {
+    float: right;
+}
+
+#image-2 {
+    float: left;
+}
+
+.important {
+    color: red;
+}
+
+.card-list {
+    display: flex;
+}

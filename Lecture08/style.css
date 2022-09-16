@@ -1,0 +1,30 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    border: 2px solid;
+    width: 150px;
+    height: 60px;
+}
+
+.dropdown ul {
+    position: absolute;
+    top: 58px;
+    left: -2px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dropdown: hover ul {
+    display: block;
+}
+
+.dropdown ul li {
+    border: 1px solid blue;
+    height: 60px;
+    width: 150px;
+} */

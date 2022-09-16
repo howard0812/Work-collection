@@ -1,0 +1,18 @@
+nav li>ul {
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+.car {
+    width: 300px;
+    border: 2px solid black;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+
+}

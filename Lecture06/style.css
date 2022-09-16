@@ -1,0 +1,28 @@
+.iphone {
+    position: relative;
+    width: 389px;
+    height: 784px;
+    border: 1px solid black;
+    /* background-image: url("https://static3.nordic.pictures/3015386-thickbox_default/apple-iphone-7-plus-256gb-silver-mn4x2zd-a.jpg"); */
+    background-position: -205px -6px;
+    border-radius: 53px;
+}
+
+.screen {
+    width: 348px;
+    height: 612px;
+    position: absolute;
+    top: 96px;
+    left: 29px;
+    background-color: burlywood;
+}
+
+.home-btn {
+    position: absolute;
+    top: 723px;
+    left: 178px;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    border: 1px solid;
+}

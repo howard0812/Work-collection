@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Howard幫你想今天要吃什麼?</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <a href="../Lecture04/index.html">首頁</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-control">
+                    <label class="col-3" for="name">店名:</label>
+                    <input class="col-8" type="text" id="name">
+                </div>
+                <div class="form-control">
+                    <label class="col-3" for="name">連絡電話:</label>
+                    <input class="col-8" type="text" id="phone">
+                </div>
+                <div class="form-control">
+                    <label class="col-3" for="name">店址:</label>
+                    <input class="col-8" type="text" id="address">
+                </div>
+                <div class="form-control">
+                    <label class="col-3" for="name">網頁連結:</label>
+                    <input class="col-8" type="text" id="page-url">
+                </div>
+                <div class="form-control">
+                    <label class="col-3" for="name">圖片連結:</label>
+                    <input class="col-8" type="text" id="image-url">
+                </div>
+                <div id="add-store-btn" class="btn btn-primary btn-lg">新增店家</div>
+            </div>
+            <div class="col-lg-6">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./01-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD4hb8qaZeacRIDVWyVT4tZKRsU2pEBkgE",
+            authDomain: "html298-howard.firebaseapp.com",
+            databaseURL: "https://html298-howard.firebaseio.com",
+            projectId: "html298-howard",
+            storageBucket: "html298-howard.appspot.com",
+            messagingSenderId: "990705238565"
+        };
+        firebase.initializeApp(config);
+
+        db = firebase.firestore();
+    </script>
+    <script src="./store.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

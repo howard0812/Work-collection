@@ -1,0 +1,35 @@
+/* 從google fonts上面選取字形 */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+/* 連結左邊的分類資料夾 */
+@import url('../assets/stylesheets/button/button.css');
+
+.card {
+    border: 2px solid black;
+}
+
+article h1+p {
+    margin: 5px;
+    font-size: 20px;
+    background-color: #bbb;
+    border-left: 3px solid black;
+    padding: 10px;
+}
+
+article h1:first-child {
+    font-size: 40px;
+}
+
+article p:nth-child(2) {
+    color: green;
+}
+
+.title.important {
+    color: red;
+}
+
+/* .col-4:nth-child(6n+1), */
+/* .col-4:nth-child(6n+2), */
+/* .col-4:nth-child(6n+3) { */
+/* border: 3px solid; */
+/* padding: 5px; */
+/* } */
